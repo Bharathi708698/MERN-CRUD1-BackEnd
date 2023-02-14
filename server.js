@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(cors());
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://Bharathi_M:Murugesan@cluster0.clfwhvo.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("Put your Mongodb link")
 .catch(err => console.log(err));
 
 const postShema = mongoose.Schema({
